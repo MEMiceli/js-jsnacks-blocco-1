@@ -18,7 +18,7 @@ let randomNomi = 0
 
 let randomCognomi = 0
 
-for (let i = 0; i <3, i++) {
+for (let i = 0; i <3; i++) {
     let randomNomi = Math.floor(Math.random() * Nomi.length);
 
     let randomCognomi = Math.floor(Math.random() * Cognomi.length);
