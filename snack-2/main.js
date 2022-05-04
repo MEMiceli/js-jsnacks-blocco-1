@@ -8,10 +8,9 @@ let  parola2 = prompt("inserisci una parola")
 if (parola1.length > parola2length){
     console.log("parola1,parola2")
 }
-else if (parola1.length < parola2length) {
+else if (parola1.length < parola2length){ 
     console.log("parola2,parola1")
 }
-
-else (parola1.length == parola2length) {
+else {
     console.log("hanno la stessa lunghezza")
 }
