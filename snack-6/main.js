@@ -2,7 +2,7 @@
 
 // inserisci numero
 
- let numero = Number(prompt("inserisci un numero"));
+let numero = Number(prompt("inserisci un numero"));
 // salva numero
 if (numero %2 == 0 ){
     console.log(numero);
