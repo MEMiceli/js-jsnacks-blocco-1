@@ -2,13 +2,13 @@
 // Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo nell’array.
 
 
-let listaNumeri = []
+let listaNumeri = [];
 
 for (let i = 0; i < 6; i++) {
-    numero = prompt("inserire numero");
+    numero = Number(prompt("inserire numero"));
     if (numero %2 == 1){
-        listaNumeri.push(numero)
-        console.log(listaNumeri)
+        listaNumeri.push(numero);
+        console.log(listaNumeri);
     }
 }
 
