@@ -8,15 +8,26 @@
  const  Nomi = ['ugo','filiberto','anselmo']
 
 // lista 2
-const  Nomi = ['pozzi','mozzi','fozzi']
+const  Cognomi = ['pozzi','mozzi','fozzi']
 // lista nomi Composti 
 
 // lista 3
 
 // prendo un dato random da lista uno 
+let randomNomi = 0
 
+let randomCognomi = 0
 
+for (let i = 0; i <3, i++) {
+    let randomNomi = Math.floor(Math.random() * Nomi.length);
+
+    let randomCognomi = Math.floor(Math.random() * Cognomi.length);
+    
+}
+
+let NomiCognomi = [(randomNomi + randomCognomi)]
 // prendo un dato random da lista 2
 
+console.log(NomiCognomi)
 
 // unisco le due parti e inserisco in lista 3
