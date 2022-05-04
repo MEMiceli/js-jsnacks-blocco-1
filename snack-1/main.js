@@ -1,17 +1,22 @@
-// L’utente inserisce due parole in successione, con due prompt.
-// Il software stampa prima la parola più corta, poi la parola più lunga.
+// L’utente inserisce due numeri in successione, con due prompt. Il software stampa il maggiore.
 
-let  parola1 = prompt("inserisci una parola")
+// inserire numero utente 1
+let primonumero = prompt("inserisci numero")
+// inserire numero utente 2
+let secondoonumero = prompt("inserisci numero")
+// verifica il maggiore
+if (primonumero > secondoonumero ){
 
-let  parola2 = prompt("inserisci una parola")
+    console.log("primonumero");
 
-if (parola1.length > parola2length){
-    console.log("parola1,parola2")
+    else if (primonumero < secondoonumero );
+
+    console.log("secondoonumero");
+// stampa il maggiore
+
+    else (primonumero == secondoonumero);
+
+    console.log("sono uguali");
 }
-else if (parola1.length < parola2length) {
-    console.log("parola2,parola1")
-}
 
-else (parola1.length == parola2length) {
-    console.log("hanno la stessa lunghezza")
-}
+
