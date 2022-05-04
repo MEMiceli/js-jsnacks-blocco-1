@@ -8,10 +8,9 @@ for (let i = 0; i < 6; i++) {
     numero = Number(prompt("inserire numero"));
     if (numero %2 == 1){
         listaNumeri.push(numero);
-        console.log(listaNumeri);
     }
 }
-
+console.log(listaNumeri);
 
 
 
