@@ -4,28 +4,44 @@
 
 
 // crea lista numeri
- let list = ['3','6','8','10']
+
+// inizio esercizio
+//  let list = ['3','6','8','10']
 
 
 
-let daSommare = [0];
+// let daSommare = [0];
 
-// individuo i numeri dispari
-let dispari = 1;
+// // individuo i numeri dispari
+// let dispari = 1;
 
 
-for (let i = 0; i < 4; i++) {
-    if (i%2 == 1){
-        dispari = (i%2 == 1);
-// inserisco numeri dispari nella lista da sommare
-        daSommare.push(dispari);
+// for (let i = 0; i < 4; i++) {
+//     if (i%2 == 1){
+//         dispari = (i%2 == 1);
+// // inserisco numeri dispari nella lista da sommare
+//         daSommare.push(dispari);
+//     }   
+// }
+
+// //somma i numeri in posizione dispari
+// let sum = 0;
+
+// for (let i = 0; i < daSommare.length; i++) {
+//     sum += daSommare[i];
+// }
+// console.log(sum);
+// fine esercizio
+
+// correzione
+
+
+let list = ['3','6','8','10']
+
+let sum = 0
+for (let i = 0; i < list.length; i++) {
+    if (i%2 === 1){
+        sum += list[i];
     }   
 }
-
-//somma i numeri in posizione dispari
-let sum = 0;
-
-for (let i = 0; i < daSommare.length; i++) {
-    sum += daSommare[i];
-}
-console.log(sum);
+console.log(su)
